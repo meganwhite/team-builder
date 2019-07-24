@@ -47,7 +47,7 @@ export default function Form() {
             <div className="form-group">
               <label for="exampleRole1">Role</label>
               <input
-                type="password"
+                type="role"
                 className="form-control"
                 name="role"
                 placeholder="Role"
@@ -58,7 +58,7 @@ export default function Form() {
             <div className="form-group">
               <label for="exampleImgUrl1.com">Image</label>
               <input
-                type="password"
+                type="imageUrl"
                 className="form-control"
                 name="imgUrl"
                 placeholder="Image URL"
