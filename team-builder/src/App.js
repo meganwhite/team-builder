@@ -23,7 +23,7 @@ function App() {
             </div>
           </div>
         )}
-        <Form />
+        <Form teamArray = {teamArray} setTeamArray = {setTeamArray}/>
     </div>
   );
 }

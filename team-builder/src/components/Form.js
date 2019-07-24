@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Form() {
+export default function Form(props) {
     const [user, setUser] = useState({ name: "", email: "", role: "", imgUrl: ""});
 
     function handleChange(event) {
@@ -10,6 +10,8 @@ export default function Form() {
 
     function handleSubmit(event) {
         event.preventDefault();
+        props.setTeamArray([...props.teamArray, user])
+
         console.log("user: ", user);
       }
 
