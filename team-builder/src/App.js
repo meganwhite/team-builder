@@ -21,6 +21,7 @@ function App() {
               <h2>{member.role}</h2>
               <h2>{member.email}</h2>
             </div>
+            <button className="editButton">Edit</button>
           </div>
         )}
         <Form teamArray = {teamArray} setTeamArray = {setTeamArray}/>

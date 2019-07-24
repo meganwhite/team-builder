@@ -11,7 +11,6 @@ export default function Form(props) {
     function handleSubmit(event) {
         event.preventDefault();
         props.setTeamArray([...props.teamArray, user])
-
         console.log("user: ", user);
       }
 
